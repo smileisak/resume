@@ -2,7 +2,7 @@
 
 baseURL = "https://me.smileisak.com/"
 languageCode = "en"
-title = ""
+title = "Ismail KABOUBI | Resume"
 theme = "hugo-devresume-theme"
 googleAnalytics = "UA-171661420-1"
 
@@ -405,13 +405,13 @@ Overall, Cy-Play provide a ready-to-use solution, easily integrated to existing 
                 link = "https://www.kubernetes.io/"
             [[params.experience.list.tools.items]]
                 name = "AWS"
-                link = "#"
+                link = "https://aws.amazon.com"
             [[params.experience.list.tools.items]]
                 name = "Python"
-                link = "#"
+                link = "https://www.python.org/"
             [[params.experience.list.tools.items]]
                 name = "Django"
-                link = "#"
+                link = "https://www.djangoproject.com/"
             [[params.experience.list.tools.items]]
                 name = "Docker"
                 link = "https://www.docker.com/"
@@ -420,13 +420,13 @@ Overall, Cy-Play provide a ready-to-use solution, easily integrated to existing 
                 link = "https://kubernetes.github.io/ingress-nginx/"
             [[params.experience.list.tools.items]]
                 name = "Kops"
-                link = "https://mattermost.com/"
+                link = "https://github.com/kubernetes/kops"
             [[params.experience.list.tools.items]]
                 name = "Fabric"
-                link = "https://mattermost.com/"
+                link = "http://www.fabfile.org/"
             [[params.experience.list.tools.items]]
                 name = "Django REST Framework"
-                link = "https://mattermost.com/"
+                link = "https://www.django-rest-framework.org/"
             [[params.experience.list.tools.items]]
                 name = "ElasticSearch"
                 link = "https://www.elastic.co/"
