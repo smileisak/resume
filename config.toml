@@ -148,7 +148,7 @@ I'm also a Lazy Contributor on Kubernetes Eco-System wanting more time and effor
             title = "Senior Software Reability Engineer / SRE (Freelance)"
             dates = "Nov 2018 - Present"
             company = "Renault AITS"
-            details = "In a few years, Renault AITS will stop its 2 Datacenters. Strategy is changed to public cloud first approch. During this experience i’ve touched all kind of public/private clouds, technologies and programming languages. The context of this experience is:"
+            details = "In a few years, Renault AITS will stop its 2 Datacenters. Strategy is changed to public cloud first approach. During this experience i’ve touched all kind of public/private clouds, technologies and programming languages. The context of this experience is:"
             logo = "renault-logo.png"
             current = true
             [[params.experience.list.items]]
