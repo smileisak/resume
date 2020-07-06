@@ -12,6 +12,7 @@
 // Define theme colour scheme
 $theme-color-primary: {{ .Site.Params.primaryColor | default "#54B689" }};
 $theme-text-color-primary: {{ .Site.Params.textPrimaryColor | default "#292929" }};
+$theme-text-font-family: {{ .Site.Params.fontFamily | default "Poppins" }};
 $theme-text-color-secondary: lighten($theme-text-color-primary, 15%);
 $theme-text-color-light: lighten($theme-text-color-primary, 40%);
 $theme-border-color:  lighten($theme-text-color-primary, 60%);
@@ -43,7 +44,10 @@ $theme-colors: (
 body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    color: $theme-text-color-secondary;
+	color: $theme-text-color-secondary;
+	
+	font-family: 'Varela', sans-serif !important;
+
 
 }
 
