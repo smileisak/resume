@@ -4,7 +4,7 @@ baseURL = "https://me.smileisak.com/"
 languageCode = "en"
 title = ""
 theme = "hugo-devresume-theme"
-googleAnalytics = "UA-XXXXXXX-Y"
+googleAnalytics = "UA-171661420-1"
 
 
 
