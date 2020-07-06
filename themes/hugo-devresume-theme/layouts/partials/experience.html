@@ -16,8 +16,15 @@
                                             <li>{{ with .details }}{{ . | markdownify }}{{ end }}</li>
                                             {{ end }}
                                         </ul>
+                                        <div>
+                                        {{ range .tools.items }}
+                                            <a href="{{ .link }}"><span class="badge badge-light">{{ .name }}</span></a>
+                                        {{ end }}
+                                        </div>
+                                        
                                     </div>
                                 </div><!--//item-->
+                                <hr>
                                 {{ end }}
 
                             </section><!--//work-section-->

@@ -48,8 +48,6 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.skills.list.items]]
         details = "Kubernetes/Containers"
         [[params.skills.list.items]]
-        details = "JavaScript/Angular"
-        [[params.skills.list.items]]
         details = "Python/Go"
         [[params.skills.list.items]]
         details = "Object-oriented design"
@@ -69,15 +67,6 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.skills.list.items]]
         details = "Good time management"
 
-
-
-
-
-
-
-
-    
-    
     
     [params.education]
         enable = true
@@ -95,46 +84,45 @@ googleAnalytics = "UA-XXXXXXX-Y"
         dates = "2009 - 2010"
 
 
-
-
-
-
-
-
     [params.awards]
         enable = true
 
         [[params.awards.list]]
-        name = "Award Lorem Ipsum"
-        body = "Microsoft lorem ipsum"
-        date = "2019"
+        name = "Certified Kubernetes Administrator"
+        body = "Among first pepole taking this certification"
+        date = "Dec 2017"
+        img = "logo_cka.png" 
         [[params.awards.list]]
-        name = "Award Donec Sodales"
-        body = "Oracle Aenean"
-        date = "2017"
+        name = "Certified Kubernetes Application Developer"
+        body = "Taken as beta tester"
+        date = "May 2018"
+        img  = "logo_ckad.png" 
 
+        [[params.awards.list]]
+        name = "Docker Technical Sales Professional"
+        body = "Technical Sales Professional"
+        date = "May 2018"
+        img  = "docker.png" 
 
-
-
-
-
+        [[params.awards.list]]
+        name = "LPIC1"
+        body = "Linux Professional Institute Certification - 1"
+        date = "Mar 2013"
+        img  = "lpic1.png" 
 
 
     [params.languages]
         enable = true
 
         [[params.languages.list]]
-        name = "English"
+        name = "Arabic"
         level = "Native"
         [[params.languages.list]]
-        name = "Spanish"
+        name = "French"
+        level = "Bilingual"
+        [[params.languages.list]]
+        name = "English"
         level = "Professional"
-
-
-
-
-
-
 
 
     [params.interests]
@@ -145,70 +133,156 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.interests.list]]
         name = "Craftsmanship"
 
-
-
-
     [params.summary]
         enable = true
         text = """
-Today working as Self Employed DevOps/SRE/Backend Engineer. Certified Kubernetes Administrator and Application Developer,  experienced also with cloud platforms like Amazon Web Services or Google Cloud Platform. Putting in place platforms for automating deployment, scaling, and operations of application containers across clusters of hosts using Kubernetes / Docker and bunch of other DevOps tools.
-The second important part of our core business today is to deliver multi-tenant application (REST API) that can handle a huge number of customers with the same code base, with some Design patterns, and best practices approaches.
-I'm also a Lazy Contributor on Kubernetes Eco-System wanting more time and effort on Open Source Contribution specifically on  Kubernetes World."""
-
+Today working as Self Employed DevOps/SRE/Backend Engineer. Certified Kubernetes Administrator and Application Developer, working on Kubernetes since the version 1.1 in Sep 2015. Experienced also with cloud platforms like Amazon Web Services or Google Cloud Platform. Putting in place platforms for automating deployment, scaling, and operations of application containers across clusters of hosts using Kubernetes / Docker and bunch of other DevOps tools.
+The second important part of my core business today is to deliver multi-tenant application (REST API) that can handle a big number of customers with the same code base, with some Design patterns, and best practices approaches.
+I'm also a Lazy Contributor on Kubernetes Eco-System wanting more time and effort on Open Source Contribution specifically on  Kubernetes World.
+"""
+    
+    
     [params.experience]
         enable = true
+        [[params.experience.list]]
+            title = "Senior Software Reability Engineer / SRE (Freelance)"
+            dates = "Nov 2018 - Present"
+            company = "Renault AITS"
+            details = "In a few years, Renault AITS will stop its 2 Datacenters. Strategy is changed to public cloud first approch. During this exp i’ve touched all kind of public/private clouds, technologies and programming languages. The context of this exp is:"
+            
+            [[params.experience.list.items]]
+            details = "Driving migration process to public cloud providers for more than ~1000 applications."
+            [[params.experience.list.items]]
+            details = "Proposing and contributing on production ready multitenant Kubernetes architectures."
+            [[params.experience.list.items]]
+            details = "Assuring that all applications that will migrate respects Cloud Native approach."
+            [[params.experience.list.items]]
+            details = "Design and develop Kubernetes Operators to manage Custom Resource Definitions to provision multi-tenant environments"
+
+            [[params.experience.list.tools.items]]
+            name = "Google Cloud Platform"
+            link = "https://cloud.google.com/kubernetes-engine?hl=fr"
+            [[params.experience.list.tools.items]]
+            name = "GKE"
+            link = "https://cloud.google.com/kubernetes-engine?hl=fr"
+            [[params.experience.list.tools.items]]
+            name = "ArgoCD"
+            link = "https://argoproj.github.io/argo-cd/"
+            [[params.experience.list.tools.items]]
+            name = "Kopf"
+            link = "https://kopf.readthedocs.io/en/stable/"
+            [[params.experience.list.tools.items]]
+            name = "Cert Manager"
+            link = "https://cert-manager.io/docs/"
+            [[params.experience.list.tools.items]]
+            name = "CleanUp Operator"
+            link = "https://github.com/lwolf/kube-cleanup-operator"
+            [[params.experience.list.tools.items]]
+            name = "Config Connector"
+            link = "https://cloud.google.com/config-connector/docs/overview?hl=en"
+            [[params.experience.list.tools.items]]
+            name = "Nginx Ingress Controller"
+            link = "https://kubernetes.github.io/ingress-nginx/"
+            [[params.experience.list.tools.items]]
+            name = "OPA GateKeeper"
+            link = "https://www.openpolicyagent.org/"
+            [[params.experience.list.tools.items]]
+            name = "KubeD"
+            link = "https://appscode.com/products/kubed/"
+            [[params.experience.list.tools.items]]
+            name = "Logging Operator"
+            link = "https://banzaicloud.com/products/logging-operator/"
+            [[params.experience.list.tools.items]]
+            name = "Prometheus Operator"
+            link = "https://github.com/coreos/prometheus-operator"
+            [[params.experience.list.tools.items]]
+            name = "Grafana"
+            link = "https://grafana.com/"
+            [[params.experience.list.tools.items]]
+            name = "Velero"
+            link = "https://velero.io/"
+            [[params.experience.list.tools.items]]
+            name = "Terraform"
+            link = "https://terraform.io/"
+            [[params.experience.list.tools.items]]
+            name = "GitlabCI"
+            link = "https://gitlab.com/"
+        
+        
+        [[params.experience.list]]
+            title = "Kubernetes Specialist (Smile)"
+            dates = "Sep 2018 - Nov 2018"
+            company = "Renault AITS"
+            details = "During this exp i've participated to studies of choosing the right solution for Renault AITS to deliver the same Kubernetes service level as public cloud providers. We have PoCed during this exercice:"
+            [[params.experience.list.items]]
+                details = "Pivotal Kubernetes Service"
+            [[params.experience.list.items]]
+                details = "Mesosphere DC OS"
+            [[params.experience.list.items]]
+                details = "Platform9"
+
+            [[params.experience.list.tools.items]]
+                name = "Terraform"
+                link = "https://terraform.io/"
+
+            [[params.experience.list.tools.items]]
+                name = "GitlabCI"
+                link = "https://gitlab.com/"
+            [[params.experience.list.tools.items]]
+                name = "RedHat OpenStack"
+                link = "https://www.redhat.com/fr/technologies/linux-platforms/openstack-platform"
+            [[params.experience.list.tools.items]]
+                name = "Kubernetes"
+                link = "https://kubernetes.io"
+            
 
         [[params.experience.list]]
-        title = "Senior Software Engineer"
-        dates = "2019 - Present"
-        company = "Google"
-        details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Donec pede justo, fringilla vel. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis."
-        [[params.experience.list.items]]
-        details = "Lorem ipsum dolor sit amet, consectetuer."
-        [[params.experience.list.items]]
-        details = "Aenean commodo ligula eget dolor."
-        [[params.experience.list.items]]
-        details = "Etiam ultricies nisi vel augue."
+            title = "Senior Software Reability Engineer / SRE (Smile)"
+            dates = "Fev 2018 - Sep 2018"
+            company = "Renault AITS"
+            details = "SUEZ supports city development around the world with through its historical activities, which are water and waste management services. SUEZ Smart Solutions, a subsidiary of the Group, provides intelligent solutions and expertise to support regions in their environmental and digital transformation. During this experience, i’ve the responsability as an SRE of these two Plateforms: "
+            [[params.experience.list.items]]
+                details = "DigitalCity Saint Etienne: integrates data collection solutions (smart meters, sensors and probes) to provide digital models and real-time applications, thus moving towards rational use of resources and resilience in times of crisis. It consit of OpenAPI Platform that expose public API to end-users to create Apps for Saint Etienne Smart City."
+            [[params.experience.list.items]]
+                details = "ON’connect coach: This solution is intended to support users in optimizing their consumption, in particular of domestic hot water"
 
-        [[params.experience.list]]
-        title = "Lead Software Developer"
-        dates = "2016 - 2019"
-        company = "Apple"
-        details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Donec pede justo, fringilla vel."
-        [[params.experience.list.items]]
-        details = "Lorem ipsum dolor sit amet, consectetuer."
-        [[params.experience.list.items]]
-        details = "Aenean commodo ligula eget dolor."
-
-        [[params.experience.list]]
-        title = "Senior Software Developer"
-        dates = "2014 - 2016"
-        company = "Dropbox"
-        details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
-
-        [[params.experience.list]]
-        title = "Senior Developer"
-        dates = "2013 - 2014"
-        company = "Uber"
-        details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus."
-
-        [[params.experience.list]]
-        title = "Backend Developer"
-        dates = "2014 - 2016"
-        company = "Amazon"
-        details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
-
-        [[params.experience.list]]
-        title = "Frontend Developer"
-        dates = "2013 - 2014"
-        company = "Startup"
-        details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus."
-
-
-
+            [[params.experience.list.tools.items]]
+                name = "Kubernetes"
+                link = "https://kubernetes.io"
+            [[params.experience.list.tools.items]]
+                name = "Azure"
+                link = "https://kubernetes.io"
+            [[params.experience.list.tools.items]]
+            name = "Prometheus Operator"
+            link = "https://github.com/coreos/prometheus-operator"
+            [[params.experience.list.tools.items]]
+            name = "Grafana"
+            link = "https://grafana.com/"
+            
+            [[params.experience.list.tools.items]]
+                name = "Kafka"
+                link = "https://terraform.io/"
+            [[params.experience.list.tools.items]]
+                name = "MongoDB"
+                link = "https://terraform.io/"
+            [[params.experience.list.tools.items]]
+                name = "ElasticSearch"
+                link = "https://terraform.io/"
+            [[params.experience.list.tools.items]]
+                name = "InfluxDB"
+                link = "https://terraform.io/"
+            [[params.experience.list.tools.items]]
+                name = "Cassandra"
+                link = "https://terraform.io/"
+            [[params.experience.list.tools.items]]
+                name = "Percona MYSQL"
+                link = "https://terraform.io/"
+            [[params.experience.list.tools.items]]
+                name = "Kong API Gateway"
+                link = "https://konghq.com/kong/"
 
     [params.projects]
-        enable = true
+        enable = false
 
         [[params.projects.list]]
         title = "Project Lorem Ipsum"
@@ -226,16 +300,8 @@ I'm also a Lazy Contributor on Kubernetes Eco-System wanting more time and effor
         tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
 
 
-
-
-
-
-
-
-
-
     [params.information]
-        enable = true
+        enable = false
 
         [[params.information.list]]
         title = "Papers"
@@ -249,27 +315,21 @@ I'm also a Lazy Contributor on Kubernetes Eco-System wanting more time and effor
         details = "Climbing, Snowboarding, Photography, Travelling"
 
 
-
-
-
-
-
-
     [params.social]
         enable = true
 
         [[params.social.list]]
         icon = "fab fa-github-square"
-        url = "//github.com/username"
-        title = "username"
+        url = "https://github.com/smileisak"
+        title = "smileisak"
         [[params.social.list]]
         icon = "fab fa-linkedin"
-        url = "//linkedin.com/in/username"
-        title = "username"
+        url = "https://linkedin.com/in/ismail-kaboubi"
+        title = "ismail-kaboubi"
         [[params.social.list]]
         icon = "fab fa-twitter-square"
-        url = "//twitter.com/username"
-        title = "@username"
+        url = "https://twitter.com/smileisak"
+        title = "@smileisak"
 
 
 
