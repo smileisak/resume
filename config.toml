@@ -455,8 +455,10 @@ Overall, Cy-Play provide a ready-to-use solution, easily integrated to existing 
         [[params.information.list]]
         title = "Papers"
         [[params.information.list.items]]
-        details = "2019 · Smile's Kubernetes Whitepaper"
-        link = ""
+        details = "2019 · Smile's Kubernetes Whitepaper (French)"
+        description = "Kubernetes is a complex platform that provides for highly scalable, efficient use of computing and storage resources. This whitepaper describes for beginers the key features of Kubernetes and how to design and implement a Kubernetes based paltform."
+        link = "livre-blanc.pdf"
+        favicon = "livre-blanc.png"
 
 
 
