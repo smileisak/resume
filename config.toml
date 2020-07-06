@@ -1,6 +1,6 @@
 # Page settings
 
-baseURL = "http://example.org/"
+baseURL = "https://me.smileisak.com/"
 languageCode = "en"
 title = ""
 theme = "hugo-devresume-theme"
