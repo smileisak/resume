@@ -145,7 +145,7 @@ I'm also a Lazy Contributor on Kubernetes Eco-System wanting more time and effor
     [params.experience]
         enable = true
         [[params.experience.list]]
-            title = "Senior Software Reability Engineer / SRE (Freelance)"
+            title = "Senior Software Reliability Engineer / SRE (Freelance)"
             dates = "Nov 2018 - Present"
             company = "Renault AITS"
             details = "In a few years, Renault AITS will stop its 2 Datacenters. Strategy is changed to public cloud first approach. During this experience i’ve touched all kind of public/private clouds, technologies and programming languages. The context of this experience is:"
@@ -245,7 +245,7 @@ I'm also a Lazy Contributor on Kubernetes Eco-System wanting more time and effor
             
 
         [[params.experience.list]]
-            title = "Software Reability Engineer / SRE (Smile)"
+            title = "Software Reliability Engineer / SRE (Smile)"
             dates = "Fev 2018 - Sep 2018"
             company = "Suez Smart Solutions"
             logo = "suez-logo.png"
